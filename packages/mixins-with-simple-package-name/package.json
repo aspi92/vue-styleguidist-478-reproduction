@@ -1,12 +1,10 @@
 {
-  "name": "@issue-reproduction/components",
+  "name": "mixins-with-simple-package-name",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/components.umd.js",
+  "main": "dist/mixins.umd.js",
   "module": "src/index.js",
   "dependencies": {
-    "@issue-reproduction/mixins": "0.0.0",
-    "mixins-with-simple-package-name": "0.0.0",
     "core-js": "^2.6.5",
     "lerna": "^3.15.0",
     "vue": "^2.6.10"
