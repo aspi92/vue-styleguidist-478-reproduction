@@ -4,6 +4,9 @@
   "private": true,
   "main": "dist/mixins.umd.js",
   "module": "src/index.js",
+  "scripts": {
+    "build": "vue-cli-service build --report --mode production --name mixins --target lib ./src/index.js"
+  },
   "dependencies": {
     "core-js": "^2.6.5",
     "lerna": "^3.15.0",
